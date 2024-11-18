@@ -1,0 +1,24 @@
+{
+  "app": {
+    "title": "AILawyer.pro",
+    "subtitle": "Solutions juridiques intelligentes",
+    "nav": {
+      "home": "Accueil",
+      "services": "Services",
+      "documents": "Documents",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Services juridiques intelligents",
+      "subtitle": "Simplifiez vos démarches juridiques grâce à l'intelligence artificielle",
+      "cta": "Commencer maintenant"
+    },
+    "services": {
+      "title": "Nos Services",
+      "contracts": "Rédaction de contrats",
+      "advice": "Conseils juridiques",
+      "analysis": "Analyse de documents",
+      "research": "Recherche juridique"
+    }
+  }
+}

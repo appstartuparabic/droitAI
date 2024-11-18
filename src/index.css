@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-arabic: 'Noto Sans Arabic', system-ui, sans-serif;
+  }
+
+  [dir="rtl"] {
+    font-family: var(--font-arabic);
+  }
+
+  /* Amélioration des transitions pour le changement de langue */
+  body {
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* Ajustements RTL pour les marges et paddings */
+  [dir="rtl"] .md\:mr-4 {
+    margin-right: 0;
+    margin-left: 1rem;
+  }
+
+  [dir="rtl"] .md\:ml-4 {
+    margin-left: 0;
+    margin-right: 1rem;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap');
